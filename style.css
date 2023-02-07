@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(244, 246, 251);
+}
+.container{
+    padding: 40px;
+    width: 340px;
+    border: 1px solid rgb(182, 181, 181);
+    background: #fff;
+    border-radius: 7px;
+}
+.container h1{
+    margin-bottom: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.img{
+    margin-right: 40px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    left: 410px;
+}
+
+.inp-c{
+    display: flex;
+    flex-direction: column;
+}
+.inp-c input{
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #CCD0D5;;
+    border-radius: 4px;
+    background: #f4f8f8;
+}
+.container button{
+    padding: 5px;
+    width: 260px;
+    background: rgb(171, 198, 247);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.or{
+    display: flex;
+    align-items: center;
+}
+.or p{
+    margin: 10px;
+    color: #746d6d;
+    font-size: 13px;
+    font-weight: 700;
+}
+.arakesme{
+    width: 200px;
+    height: 1px;
+    border: 1px solid #b6b6b6;
+    
+}
+.facebook{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 22px;
+}
+.salam i{
+    color: #4548f1;
+    font-size: 18px;
+    cursor: pointer;
+}
+.salam span{
+    font-size: 15px;
+    color: rgb(53, 47, 47);
+    margin-left: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.facebook .televizor{
+    margin: 30px 40px 0 40px;
+    font-size: 13px;
+    color: #746d6d;
+    cursor: pointer;
+}
+.containerfoot{
+    padding: 20px;
+    border: 1px solid rgb(182, 181, 181);
+    background: #fff;
+    border-radius: 7px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.containerfoot p{
+    font-size: 13px;
+}
+.containerfoot a{
+    color: #6464ff;
+    font-weight: 700;
+}
